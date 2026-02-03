@@ -47,7 +47,7 @@ export default function About() {
       <GradientText h2 size={device == "lg" ? "$6xl" : "4xl"} text="About Me" />
       <br />
       <Text h4 css={{ color: "$gray700" }} weight="normal" size="$lg">
-        Hey there! I am a Data Scientist based in Chicago, currently working at
+        Hey there! I am a Data Scientist based in Chicago, currently working at 
         <Link href="https://www.alliantcreditunion.org/" target="_blank">
           <GradientText h4 size="$lg" text="Alliant Credit Union."></GradientText>
         </Link>
@@ -61,7 +61,7 @@ export default function About() {
         <br />
         <br />
         If you're looking for an analytical mind with a passion for AI and a
-        collaborative spirit, you've found him ! Let's connect!
+        collaborative spirit, you've found him ! 
         <a
             href="mailto:nagraj.ds@outlook.com"
             title="Mail to: nagraj.ds@outlook.com"

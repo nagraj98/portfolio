@@ -6,8 +6,52 @@ import GradientText from "../GradientText/GradientText";
 import { tagTitles } from "../Projects/Projects";
 import styles from "./work.module.css";
 
-const companyList = ["Spry", "SocGen", "RAMAN"];
+const companyList = ["Alliant", "Nedl_Labs", "Prediction_Guard", "Spry", "SocGen", "RAMAN"];
 const companyContent = {
+  Alliant: {
+    name: "Alliant Credit Union",
+    link: "https://www.alliantcreditunion.org/",
+    shortName: "Alliant",
+    duration: "February 2025 - present",
+    position: "Data Scientist",
+    description: [
+      "Led NLP-driven NPS and call analytics pipelines (sentiment, topic modeling) identifying key customer pain points; insights drove product and content fixes, contributing to a 12% YoY reduction in member care calls",
+      "Established Azure OpenAI validation, monitoring, and governance workflows; proactively identified model retirements and led GPT-3.5 → GPT-4o migration across teams, preventing downstream production failures",
+      "Designed and implemented LLM evaluation framework using DeepEval to monitor performance, regressions, and risk across enterprise AI use cases",
+      "Revived Next Best Product framework by integrating TU propensity scores; built Databricks jobs for daily scoring and Synapse ingestion to enable hyper-personalized marketing activation",
+      "Architected scalable underwriting and marketing AI systems using Azure Doc Intelligence, agents, and orchestration; winner, Alliant Innovation Challenge for Underwriting AI Assistant concept",
+
+    ],
+    tags: ["Azure", "Databricks", "Python3", "SQL", "Machine Learning", "AI"],
+    awards: [],
+  },
+  Nedl_Labs: {
+    name: "Nedl Labs",
+    link: "https://nedllabs.com/",
+    shortName: "Nedl",
+    duration: "September 2024 - February 2025",
+    position: "AI Engineer",
+    description: [
+      "Developed a robust ETL copilot with advanced transformer models to extract unstructured data from financial reports, enhancing data accessibility and repair efficiency by 70% for high-volume data processing across enterprises",
+    ],
+    tags: ["Azure", "FastAPI", "Data Ingestion", "Transformers", "Python3"],
+    awards: [],
+  },
+  Prediction_Guard: {
+    name: "Prediction Guard",
+    link: "https://predictionguard.com/",
+    shortName: "Prediction Guard",
+    duration: "February 2022 - March 2023",
+    position: "Data Scientist",
+    description: [
+      "Engineered an autonomous LLM powered marketing agent to identify relevant trends and generate post ideas specific to target platforms in real time, boosting post frequency by 40% and engagement by 25%",
+      "Developed a prompt-chaining and RAG pipeline using open-source LLMs to make the agent context aware and scalable across industries, achieving significant brand alignment with a semantic score of 0.8",
+      "Implemented rigorous content verification for factuality, toxicity, and PII, ensuring compliance and content safety",
+      "Won Poster competition at Purdue University, and were selected to present at INFORMS Analytics Conference 2024; and co-authored a paper accepted at the International Conference on Data Science",
+    ],
+    tags: ["PromptEngineering", "LanceDB", "Llama2", "FastAPI", "Python3"],
+    awards: [],
+  },
   Spry: {
     name: "Spry Therapeutics Inc.",
     link: "https://www.sprypt.com/",

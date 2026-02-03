@@ -62,8 +62,8 @@ export default function Social() {
       </a>
 
       <a
-        href="mailto:dnagraj998@gmail.com"
-        title="Mail to: dnagraj998@gmail.com"
+        href="mailto:nagraj.ds@outlook.com"
+        title="Mail to: nagraj.ds@outlook.com"
       >
         <Image
           src="/images/gmail.svg"
