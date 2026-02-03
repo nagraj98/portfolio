@@ -15,7 +15,7 @@ export default function Contact() {
           text="Contact"
         />
         <Text h4 css={{ color: "$gray700" }}>
-          Currently looking for Full-time Data Science positions. Whether you
+          Currently looking for Full-time positions. Whether you
           have any open opportunity or just want to say hi, my inbox is always
           open!
         </Text>
@@ -26,8 +26,8 @@ export default function Contact() {
           className={`${buttonStyles.button} ${buttonStyles.customButton}`}
         >
           <a
-            href="mailto:dnagraj998@gmail.com"
-            title="Mail to: dnagraj998@gmail.com"
+            href="mailto:nagraj.ds@outlook.com"
+            title="Mail to: nagraj.ds@outlook.com"
           >
             Get in touch
           </a>

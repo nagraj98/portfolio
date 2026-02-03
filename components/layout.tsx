@@ -3,7 +3,7 @@ import styles from "./layout.module.css";
 import Script from "next/script";
 
 export const siteTitle = "Nagraj Deshmukh";
-const description = `Hi! I am Nagraj, a 25 y/o Data Scientist. 
+const description = `Hi! I am Nagraj, a 27 y/o Data Scientist. 
 I crunch numbers, unleash creativity, and tell stories.`;
 
 export default function Layout({ children }) {

@@ -47,10 +47,9 @@ export default function About() {
       <GradientText h2 size={device == "lg" ? "$6xl" : "4xl"} text="About Me" />
       <br />
       <Text h4 css={{ color: "$gray700" }} weight="normal" size="$lg">
-        Hey there! I am a Data Scientist based in the United States. Currently a
-        graduate student at{" "}
-        <Link href="https://business.purdue.edu/" target="_blank">
-          <GradientText h4 size="$lg" text="Purdue University."></GradientText>
+        Hey there! I am a Data Scientist based in Chicago, currently working at
+        <Link href="https://www.alliantcreditunion.org/" target="_blank">
+          <GradientText h4 size="$lg" text="Alliant Credit Union."></GradientText>
         </Link>
         <br />
         I crunch numbers, unleash creativity, tell stories and build products. I
@@ -58,13 +57,17 @@ export default function About() {
         products & services. A strong foundation in statistics and programming,
         including experience with databases and systems, has consistently fueled
         my success in delivering enterprise-level insights that drive growth.
-        Now, I'm eager to leverage these skills and enthusiasm for AI and Deep
-        Learning as an AI/ML Engineer, tackling complex problems and
-        contributing to cutting-edge solutions.
+        
         <br />
         <br />
         If you're looking for an analytical mind with a passion for AI and a
         collaborative spirit, you've found him ! Let's connect!
+        <a
+            href="mailto:nagraj.ds@outlook.com"
+            title="Mail to: nagraj.ds@outlook.com"
+          >
+            Let's connect!
+          </a>
         <br />
         I have experience with:
         <br />{" "}

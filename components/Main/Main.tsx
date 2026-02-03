@@ -39,7 +39,7 @@ export default function Main({ device }) {
           <Typewriter
             options={{
               strings: [
-                "ML at Purdue University 🎓",
+                "Purdue ML grad 🎓",
                 "Curious 🧠",
                 "Creative 💭",
                 "Solution Oriented 💡",
@@ -60,13 +60,13 @@ export default function Main({ device }) {
           className={styles.h3}
           css={{ color: "$gray700" }}
         >
-          I am currently seeking <strong>full-time</strong> opportunities and
-          will be available to begin new professional challenges in the{" "}
-          <strong>US</strong> from <strong>September 3, 2024</strong>, under{" "}
-          <strong>
-            F1 <em>OPT</em>
-          </strong>{" "}
-          visa status
+          Looking for my next challenge in the Data and AI space, open to <strong>full-time</strong> opportunities and
+          in the{" "}
+          <strong>US</strong> that sponsor my{" "}
+          {/* <strong>
+            <em> STEM OPT</em>
+          </strong>{" "} */}
+          visa
         </Text>
         <br />
 
@@ -89,7 +89,7 @@ export default function Main({ device }) {
           }}
         >
           <a
-            href="assets/nagraj_resume_June2024.pdf"
+            href="assets/nagraj_ds_resume.pdf"
             title="Take a look !"
             target="_blank"
             rel="noopener noreferrer"

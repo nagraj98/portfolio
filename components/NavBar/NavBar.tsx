@@ -22,7 +22,7 @@ const NavItems = [
   },
   {
     title: "Resume",
-    link: "assets/nagraj_resume_June2024.pdf",
+    link: "assets/nagraj_ds_resume.pdf",
   },
   {
     title: "Contact",
